@@ -395,22 +395,13 @@ function showGames(games){
           divGame.classList.add('game')
           divGame.innerHTML = `<b>${game.name}</b> relased in ${game.year} as
                                a video game of ${game.gender} with a score of ${game.value}
-                               and a parice of ${game.price}`
+                               and a price of ${game.price}`
           divGames.appendChild(divGame)
     })
 
 
 }
 
-
-
-
-
-
-
-
-
-///////////////////////////////////////////////////////////////////////////////////////
 Array.prototype.unique=function(a){
     return function(){
     return this.filter(a)}
