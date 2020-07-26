@@ -1,0 +1,16 @@
+{
+  games:[
+      {
+        name:'Halo',
+        price:120000
+        year:2000,
+        gender:'Adventure'
+      },
+      {
+        name:'Minecraft',
+        price:75.000,
+        year:2012,
+        gender:'Adventure'
+      }
+  ]
+}

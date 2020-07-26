@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;800&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.title{
+  margin: 0px;
+  margin-bottom: 13px;
+  text-align: center;
+  width: 1fr;
+  background-color:#0b1725;
+  padding: 1.5%;
+  font-family: 'Work Sans', sans-serif;
+  color: #14bd67;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 5%;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+
+}
+main label select{
+   width: 150px
+}
+main .result{
+  margin-top: 20px
+}
+
+.not-result{
+  background-color: red;
+}
+.game{
+  background-color: #14bd67;
+  /*Bordes*/
+  border-radius: 8px 8px 8px 8px;
+ -moz-border-radius: 8px 8px 8px 8px;
+ -webkit-border-radius: 8px 8px 8px 8px;
+ border: 0px solid #000000;
+
+ /*Sombras*/
+  -webkit-box-shadow: 4px 9px 15px -11px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 9px 15px -11px rgba(0,0,0,0.75);
+  box-shadow: 4px 9px 15px -11px rgba(0,0,0,0.75);
+  text-align: left;
+  padding: 3%;
+  margin-bottom: 17px;
+}
+.error{
+  background-color: #ffd3d3;
+  color: #ce1c1c;
+  padding: 4%
+}
